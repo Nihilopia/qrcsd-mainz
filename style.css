@@ -39,6 +39,12 @@ body {
   text-align: center;
 }
 
+.logo-button {
+  position: inherit;
+  height: 100%;
+  width: 100%;
+}
+
 .animals {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
