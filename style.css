@@ -35,13 +35,13 @@ body {
 
 #logo {
   color: black;
-  width: 50em;
+  width: 33em;
   text-align: center;
 }
 
 .animals {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   align-items: center;
   padding: 10px;
@@ -50,13 +50,13 @@ body {
 
 @media (max-width: 1200px) {
   .animals {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 775px) {
   .animals {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -100,7 +100,10 @@ body {
   text-align: center;
 }
 
-#ip1, #ip2, #ip3, #ip4 {
+#ip1,
+#ip2,
+#ip3,
+#ip4 {
   color: yellow;
   letter-spacing: 1em;
   font-size: 2.5em;
@@ -115,26 +118,31 @@ body {
   margin-top: -0.25em;
 }
 
-#ip3, #ip4 {
+#ip3,
+#ip4 {
   letter-spacing: 0.3em;
   margin: 0;
 }
 
-    /* @media (max-width: 775px) {
+/* @media (max-width: 775px) {
       .aufruf {
         grid-template-columns: repeat(1,1fr);
       }
     } */
 
-    .aufruf {
-      /* display: grid; */
-      margin-left: 2.5em;
-      /* grid-template-columns: repeat(1,1fr); */
-      width: 100%;
-    }
+.aufruf {
+  /* display: grid; */
+  margin-left: 2.5em;
+  /* grid-template-columns: repeat(1,1fr); */
+  width: 55%;
+  border: #000;
+  border-style: outset;
+  backdrop-filter: blur(2.5px);
+}
 
-.regular-text, .stylized-text {
-  grid-template-columns: repeat(2,1fr);
+.regular-text,
+.stylized-text {
+  grid-template-columns: repeat(2, 1fr);
   padding-left: 10px;
   padding-right: 10px;
   width: 60%;
@@ -144,8 +152,14 @@ body {
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
+.regular-text,
+.stylized-text {
+  width: 100%;
+}
+
 .regular-text {
   color: #000;
+  width: 100%;
   /* margin-left: 5em; */
 }
 
@@ -153,30 +167,18 @@ body {
   color: #DD00EA;
 }
 
-    #aufruf-unicorn {
-      position: relative;
-      grid-template-columns: repeat(2,1fr);
-      height: 33%;
-      width: 33%;
-      margin-left: 100%;
-    }
+.page-mascot {
+  float: right;
+  position: fixed;
+  margin-left: 60%;
+}
 
-    #aufruf-unicorn-div {
-      position: absolute;
-      z-index: -1;
-      top: 50%;
-    }
+#aufruf-unicorn {
+  width: 15%;
+}
 
-    #demo-rat {
-      position: relative;
-      grid-template-columns: repeat(2,1fr);
-      height: 33%;
-      width: 33%;
-      margin-left: 100%;
-    }
+#demo-rat {
+  width: 15%;
+}
 
-    #demo-rat-div {
-      position: absolute;
-      z-index: -1;
-      top: 50%;
-    }
+/* #aufruf-unicorn-div {
