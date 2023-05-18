@@ -136,8 +136,8 @@ body {
 .regular-text,
 .stylized-text {
   grid-template-columns: repeat(2, 1fr);
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   width: 60%;
   font-family: 'Quicksand';
   font-weight: bold;
