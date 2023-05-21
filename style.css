@@ -86,13 +86,6 @@ body {
 #capybara {
   color: black;
   width: 18em;
-  -webkit-filter: grayscale(75%);
-  -moz-filter: grayscale(75%);
-  -o-filter: grayscale(75%);
-  -ms-filter: grayscale(75%);
-  filter: grayscale(75%);
-  opacity: 0.4;
-  filter: alpha(opacity=40);
 }
 
 #rat {
