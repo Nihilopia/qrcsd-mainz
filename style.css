@@ -124,6 +124,7 @@ body {
   border: 3px solid rgb(220, 220, 220);
   background: rgba(220, 220, 220, 0.5);
   backdrop-filter: blur(5px) brightness(90%);
+  margin-bottom: 2.5em;
 }
 
 .regular-text,
@@ -156,4 +157,36 @@ body {
   position: fixed;
   margin-left: 60%;
   width: 15%;
+}
+
+.timetable {
+	width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+	text-align: left;
+}
+
+.table-text-header,
+.table-text-subheader,
+.table-seperator {
+  text-align: center;
+}
+
+.table-seperator {
+  text-decoration: underline;
+}
+
+.table-text-header {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.table-text-subheader {
+  color: #e367ea;
+  font-size: large;
+  font-style: italic;
+}
+
+.table-text {
+  font-size: larger;
 }
