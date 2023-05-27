@@ -168,3 +168,12 @@ body {
 .table-text {
   font-size: larger;
 }
+
+.demo-map {
+  padding-left: 20px;
+  max-width: 90%;
+}
+
+.tab {
+  margin-left: 40px;
+}
