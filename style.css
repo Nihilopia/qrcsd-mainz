@@ -177,3 +177,50 @@ body {
 .tab {
   margin-left: 40px;
 }
+
+.index-table {
+  width: 55em;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 20px;
+  border: 3px solid rgb(220, 220, 220);
+  background: rgba(220, 220, 220, 0.25);
+  backdrop-filter: blur(5px) brightness(90%);
+  margin-top: 30px;
+}
+
+.index-timetable {
+	width: 100%;
+	text-align: left;
+}
+
+.index-table-cell {
+  text-align: center;
+}
+
+.cell-hangout {
+  background: rgba(228, 147, 80, 0.25);
+}
+
+.cell-workshop {
+  background: rgba(228, 226, 80, 0.25);
+
+}
+
+.cell-tattoo {
+  background: rgba(80, 228, 223, 0.25);
+}
+
+.cell-food {
+  background: rgba(85, 80, 228, 0.25);
+
+}
+
+.cell-demo {
+  background: rgba(228, 80, 226, 0.25);
+  
+}
+
+.cell-program {
+  background: rgba(228, 80, 129, 0.25);
+}
